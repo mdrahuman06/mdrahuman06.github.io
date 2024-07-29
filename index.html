@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PortFolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/c26cd2166c.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="images/rahuman-logo.jpg" id="rahuman-logo">
+  </head>
+<body>
+    <section id="Home">
+    <header>
+      <nav>
+        <a href="#Home" class="logo">PortFolio</a>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact" >Contact</a></li>
+            </ul>
+            <div class="menu">
+              <div class="menu-line"></div>
+              <div class="menu-line"></div>
+              <div class="menu-line"></div>
+          </div>
+      </nav>
+      <script>
+          const menu = document.querySelector('.menu')
+          const menuList = document.querySelector('nav ul')
+          menu.addEventListener('click',()=>{
+            menuList.classList.toggle('showmenu')
+          })
+      </script>
+    </header>
+    </section>
+          <section class="banner">
+                <div class="text">            
+                  <h5 class="h-1">Hello, I am</h5>
+                  <h1 class="h-2">Mohamed Abdul Rahuman</h1>
+                  <h6 class="h-3">Full Stack Developer</h6>
+                </div>
+          </section>
+
+          <!--JS for sticky Nav-Bar-->
+        <script type="text/javascript">
+            window.addEventListener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky",window.scrollY > 0);
+            })
+        </script>
+        <section id="About">
+        <div class="container">
+          <h1 class="heading">About</h1>
+            <table>
+              <tr>
+                <th>Who am I?</th>
+                <th>Personal Info</th>
+                <th>Education</th>
+              </tr>
+              <tr>
+                <td>I am a Graduated <b>Computer Science Engineer</b> in <br><span style="color: red;font-weight: bold;">Sethu Institute of Technology.</span></td>
+                <td><b>DOB :</b> 06/10/2001</td>
+                <td><b>2023</b><br>
+                  Course Completed -- <i><b>Python / Full Stack Developer.</i></b></td>
+              </tr>
+              <tr>
+                <td>I Have Completed Course Certification in <b>Python and<br> Full Stack Developer.</b></td>
+                <td><b>Email: </b><a href="mailto:ragu20140610@gmail.com" style="color:blue">ragu20140610@gmail.com</a></td>
+                <td><b>2019-2023</b><br>
+                  <span style="color: red;font-weight: bold;">B.E Computer Science Engineering,</span><br>
+                  Completed Bachelor Degree with <b>CGPA of 8.1.</b></td>
+              </tr>
+              <tr>
+                <td>I am working as a <b>Python-FullStack Web Developer</b> <br>
+                  in <a href="https://aruvinfotech.com"><span style="color: red;font-weight: bold;">Aruvi-Infotech (January 2024 - Present).</span></a></td>
+                <td><b>Phone : </b><a href="https://wa.me/+918015360719" style="color:blue">+91 8015360719</a></td>
+                <td><b>2018-2019</b><br>
+                  <span style="color: red;font-weight: bold;">HSC,</span><br>
+                    Completed Schooling Degree with total of <b>61%.</b></td>
+              </tr>
+              <tr>
+                <td><a href ="https://drive.google.com/file/d/1wMvi87rZ2OSr5jF8V5DTpJkpivRDIAFv/view?usp=sharing">
+                    <button class="button">Download My CV</button></a></td>
+                <td><b>LinkedIn : </b><br><a href="https://linkedin.com/in/rahuman-p06" style="color:blue">linkedin.com/in/rahuman-p06</a></td>
+                <td><b>2016-2017</b><br>
+                  <span style="color: red;font-weight: bold;">SSLC,</span><br>
+                  Completed Schooling Degree with total of <b>89%.</b></td>
+              </tr>
+              <tr> 
+                <td></td>
+                <td><b>Address : </b>2/178,Railway feeder road,<br>
+                                        viswanathapuram,<br>
+                                        shencottai-627809.</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                    <ul class="social">
+                        <a href="https://www.linkedin.com/in/rahuman-p06"><img src="images/linkedin.png" alt="LinkedIn" width="35px" height="32px"></a>
+                        <a href="https://instagram.com/md_rahuman_06?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><img src="images/instagram.png" alt="Instagram" width="35px" height="32px"></a>
+                        <a href="https://www.facebook.com/rahuman0610PMAR?mibextid=ZbWKwL"><img src="images/facebook.png" alt="facebook" width="35px" height="32px"></a>
+                        <a href="http://github.com/mdrahuman06"><img src="images/github.png" alt="Github" width="35px" height="32px"></a>
+                    </ul></td>
+                <td></td>
+              </tr>
+            </table>
+        </div>
+        </section>
+        <section id="resume">
+            <div class="container2">
+                <h1 class="heading">My Resume</h1>
+                <table>
+                  <tr>
+                    <section id="project">
+                    <th>Mini Projects</th> 
+                    <th>Skills</th>
+                    <th>Course Completed</th>
+                    </section>
+                  </tr>
+                  <tr>
+                    <td>Worked In Webpage Projects like <a href="https://mdrahuman06.github.io/Portfolio/"><b>Portfolio</b></a><b>, Card-Animations.</b></td>
+                    <td>Knowledge in <b>HTML ,CSS, JS and Bootstrap.</b></td>  
+                    <td>Certification Course Completed in <b>Python Programming</b> and <b>Full Stack Developer</b> at
+                            <a href="https://www.aruviinstituteoflearning.com/">Aruvi Institute of Learning.</a></td>
+                  </tr>
+                  <tr>
+                    <td>Worked in Team project in <b><a href="https://www.aruviinstituteoflearning.com/courses.html">Aruvi Institute (Webpage Design).</a></b></td>
+                    <td>Knowledge in <b>Python Programming.</b></td>
+                    <td>Learned advance concepts in Python like <b>Oops, File Handling, Regex.</b></td>
+                  </tr>
+                  <tr>
+                    <td>PlayStation - Hardware analysis & debug.</td>
+                    <td>Working Knowledge in <b>Django Framework.</b></td>
+                    <td>Knowledge in Data Science Libraries like <b>Numpy, Pandas, Matplotlib.</b></td>
+                  </tr>
+                  <tr>
+                    <td>VM deployment.</td>
+                    <td>Working Knowledge in <b>AWS(Amazon Web Service)</b>in EC2-Instances(Hosting) and <b>Github.</b></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Basic knowledge in <b>Microsoft Excel </b>and <b>Data Analyst.</b></td>
+                  <tr>
+                    <td></td>
+                    <td>Basic knowledge in <b>Flask Framework.</b></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td><b>Time Management.</b></td>
+                  </tr>
+                </table>
+                <table>
+                  <tr>
+                    <th>Final Year Projects</th>
+                    <th>Activites</th>
+                    <th>Experience</th>
+
+                  </tr>
+                  <tr>
+                    <td>Product Development-Passive Infrared (PIR) Sensor (Team).</td>
+                    <td>Currently working in FullStack Website Project Using Django.</td>
+                    <td><a href="https://aruvinfotech.com">Aruvi Infotech (Tenkasi)</a><br>
+                          <b>-></b>      Position: FullStack Web Developer<br>
+                          <b>-></b>      Duration: January 2024 - Present</td>
+                    
+                  </tr>
+                  <tr>
+                    <td>Air Pollution Monitoring System - using IOT (Team).</td>
+                    <td>Attended Internship at Phoenix Softech for 10 days.</td>  
+                    <td><b>Responsibilities:</b></td>
+                    
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Participated in Smart India Hackathon.</td>
+                    <td># Developed and maintained full-stack web applications using <b>Django for the
+                        backend</b> and <b>HTML, CSS, and JS for the frontend.</b></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Member of Rotaract club at Sethu Institute of Technology.</td>
+                    <td># Collaborated with cross-functional teams to design, develop, and deploy new
+                        features, ensuring robust functionality and user-friendly interfaces.</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td># Utilized <b>AWS EC2</b> for deploying and managing web applications, enhancing scalability
+                        and performance.</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td># Managed code versioning and repository using <b>GitHub</b>, facilitating seamless collaboration
+                        and code integration.</td>
+                  </tr>
+                </table>
+            </div>
+        </section>
+        
+            <section class="container3">
+                <div >
+                    <h2 class="texts">I Am Available For FreeLancer</h2>
+                    <button class="button1"><a href="#contact" >Hire Me</a></button>
+                </div>
+            </section>
+
+            <section id="contact">
+              <div class="social2">
+                <a href="https://www.linkedin.com/in/rahuman-p06"><img src="images/linkedin.png" alt="LinkedIn" width="35px" height="32px"></a>
+                        <a href="https://instagram.com/md_rahuman_06?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><img src="images/instagram.png" alt="Instagram" width="35px" height="32px"></a>
+                        <a href="https://www.facebook.com/rahuman0610PMAR?mibextid=ZbWKwL"><img src="images/facebook.png" alt="facebook" width="35px" height="32px"></a>
+                        <a href="http://github.com/mdrahuman06"><img src="images/github.png" alt="Github" width="35px" height="32px"></a>
+                
+              </div>
+              
+              <div class="contact-box">
+                <div class="c-heading" style="color: white;">
+                  <h1 style="text-align: center;">Get in Touch</h1>
+                  <p>Message Me</p>
+                </div>
+                <form action="https://formsubmit.co/ragu20140610@gmail.com" method="POST">
+                  <div class="c-inputs">
+                    <input type="text" name="name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="example@gmail.com" required>
+                    <input type="text" name="phone" placeholder="+(123)456 789" required>
+                    <textarea name="message" id="message" placeholder="Write Messages" required></textarea>
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_redirect" value="https://mdrahuman06.github.io/Portfolio/thanks.html">
+                    <button type="submit">SEND</button>
+                  </div>
+                </form>
+              </div>
+                
+              <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2006.0593567518852!2d77.24635481117852!3d8.
+                              985608363205655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06810e54a796f5%3A0x7daa844824a5d448!2sShenkottai%2C%20Tamil
+                              %20Nadu%20627809!5e0!3m2!1sen!2sin!4v1692942137003!5m2!1sen!2sin" width="600" height="500" frameborder="0" style="border:0;" 
+                              allowfullscreen="" aria-hidden="false" tabindex="0">
+                </iframe>-->
+              </div>
+            </section>
+            
+            <!--<section id="foot">
+              <footer>
+                <p>2023-2025 copyrights@ ERFARA</p>
+              </footer>
+            </section>-->
+</body>
+</html>

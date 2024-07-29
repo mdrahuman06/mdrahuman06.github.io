@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My PortFolio || Thank You</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/rahuman-logo.jpg" id="rahuman-logo">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #282c34;
+      color: white;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .thank-you-message {
+      text-align: center;
+      animation: fadeInOut 3s forwards;
+    }
+    @keyframes fadeInOut {
+      0% { opacity: 0; }
+      20% { opacity: 1; }
+      80% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="thank-you-message">
+    <h1>Thank You!</h1>
+    <p>Your message has been sent successfully.</p>
+  </div>
+  <script>
+    setTimeout(function() {
+      window.location.href = "https://mdrahuman06.github.io/Portfolio/";
+    }, 3000);
+  </script>
+</body>
+</html>
